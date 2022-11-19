@@ -1,0 +1,698 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+	font-family: "Jost", sans-serif;
+}
+.card{
+	border-style: none;
+}
+.header{
+  background-color: #37517e;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.ARSHA{
+  font-size: 30px;
+  font-weight: 500;
+}
+.navbar a{
+  color: #ffff;
+}
+.nav-item a {
+	font-size: 16px;
+	margin-right: 15px;
+}
+.nav-item a:hover{
+  color: #47b2e4;
+}
+.dropdown ul a{
+  color: #0000;
+}
+.Get {
+	font-size: 16px;
+	margin: 0px px;
+	padding: 3px 0px;
+	border: 2px solid #47b2e4;
+	color: #ffff;
+	border-radius: 15px;
+}
+.Get:hover{
+  background-color: #47b2e4;
+  color: #ffff !important;
+}
+/* ------------banar----------------------------------- */
+.banar{
+  background-color: #37517e;
+}
+.banar_part h1 {
+  color: #ffff;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 88px;
+}
+.banar_part p {
+  color: #ffff;
+  font-size: 25px;
+  color: #ffffff99;
+}
+.banar_part a {
+	color: #ffff;
+	font-size: 18px;
+	font-weight: 500;
+}
+a{
+  text-decoration: none;
+}
+.banar_part i {
+	font-size: 30px;
+	padding-left: 13px;
+  transition: 0.5s;
+}
+.banar_part i:hover{
+  color: #0fa6ec;
+}
+.started {
+  border: 2px solid #47b2e4;
+  font-size: 10px;
+  padding: 8px 33px;
+  border-radius: 23px;
+  background-color: #47b2e4;
+  transition: 0.3s;
+}
+.started:hover{
+  background-color: #0fa6ec;
+  color: #ffff;
+}
+.hero{
+  transition: 0.5s;
+}
+.hero:hover{
+  transform: translateY(-10px);
+}
+/* ----------------maybo----------------- */
+.maybo {
+	background-color: #f3f5fa;
+}
+.client-1 img {
+	width: 88px;
+	height: 32px;
+	margin-top: 18px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-1 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+.client-2 img {
+	width: 86px;
+	height: 30px;
+	margin-top: 16px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-2 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+.client-3 img {
+	width: 88px;
+	height: 32px;
+	margin-top: 18px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-3 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+.client-4 img {
+	width: 88px;
+	height: 32px;
+	margin-top: 23px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-4 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+.client-5 img {
+	width: 88px;
+	height: 32px;
+	margin-top: 22px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-5 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+.client-6 img {
+	width: 88px;
+	height: 32px;
+	margin-top: 20px;
+	filter: grayscale(100);
+	transition: 0.3s;
+}
+.client-6 img:hover{
+  filter: none;
+	transform: scale(1.1);
+}
+/* ------------ABOUT-------------------- */
+.ABOUT{
+  background-color: #ffff;
+}
+.US h1 {
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+	color: #37517e;
+	padding-top: 75px;
+}
+.dolor p {
+	font-size: 17px;
+	padding-top: 0px;
+	margin-left: 0px;
+}
+.dolor i {
+	color: #47b2e4;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.Ullamco p {
+	font-size: 18px;
+	padding-top: 11px;
+	padding-left: 30px;
+}
+.More {
+	font-size: 18px;
+	padding: 5px 28px;
+	border: 2px solid #47b2e4;
+	font-weight: 500;
+	color: #47b2e4;
+	border-radius: 5px;
+	background-color: #ffff;
+	margin-left: 30px;
+}
+.Ullamco a:hover{
+  color: #ffff;
+	background-color: #47b2e4;
+	transition: 0.5s;
+}
+/* --------------laborum----------------------- */
+.laborum{
+	background-color: #f3f5fa;
+}
+.pariatur {
+	padding-top: 12px;
+}
+.Eum{
+	font-size: 33px;
+	color: #37517e;
+	padding-top: 0px;
+}
+.amet {
+	font-size: 17px;
+	padding-top: 0px;
+	color: #848484;
+}
+.erat {
+	font-size: 20px;
+	border: 33px;
+	padding-top: 18px;
+	border-style: none;
+	background-color: #ffff;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	padding: 13px 13px;
+}
+.erat i {
+	padding-left: 54px;
+}
+.erat a:hover{
+	color: #446969;
+}
+.Feugiat {
+	font-size: 20px;
+	border: 50px;
+	padding-top: 18px;
+	border-style: none;
+	background-color: #ffff;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	padding: 13px 13px;
+}
+.Feugiat i {
+	padding-left: 66px;
+}
+.Feugiat a:hover{
+	color: #446969;
+}
+.nulla {
+	font-size: 20px;
+	border: 50px;
+	padding-top: 18px;
+	border-style: none;
+	background-color: #ffff;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	padding: 13px 13px;
+}
+.nulla i {
+	padding-left: 92px;
+}
+.nulla a:hover{
+	color: #446969;
+}
+.skills1 {
+	padding-top: 44px;
+}
+/* ---------Voluptatem------------------------ */
+.provident{
+	padding-top: 30px;
+}
+.quasi {
+	font-size: 32px;
+	font-weight: 600;
+	padding-top: 0px;
+	color: #37517e;
+	font-family: "Jost", sans-serif;
+}
+.adipiscing {
+	font-size: 19px;
+	padding-top: 38px;
+	color: #848484;
+}
+/* ---------SERVICES---------------- */
+.SERVICES{
+	background-color: #f3f5fa;
+}
+.Magnam h1 {
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 40px;
+	color: #37517e;
+	padding-top: 38px;
+}
+.Magnam p {
+	font-size: 17px;
+	text-align: center;
+	padding-top: 55px;
+	color: black;
+}
+.card{
+	transition: 0.5s;
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.card-body i {
+	font-size: 35px;
+	padding-top: 17px;
+	color: #47b2e4;
+	padding-left: 10px;
+}
+.card-body a {
+	font-size: 25px;
+	color: #37517e;
+	padding-left: 7px;
+}
+.card-body a:hover{
+	color: #47b2e4;
+}
+.card-body p {
+	font-size: 17px;
+	padding-top: 25px;
+	line-height: 24px;
+}
+/* -----------Action-------------------*/
+.Action{
+	background-color: #37517e;
+}
+.main h1 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffff;
+	padding-left: 0px;
+	margin-top: 50px;
+}
+.main p {
+	font-size: 16px;
+	padding: 2px 5px;
+	color: #ffff;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+.cupidatat a {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 40px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 83px;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.cupidatat a:hover{
+	color: white;
+	background-color: #47b2e4;
+	border-color: #47b2e4;
+}
+/* ----------PORTFOLIO------------------- */
+.commodi h1 {
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 20px;
+	color: #37517e;
+}
+.commodi p {
+	font-size: 17px;
+	text-align: center;
+	padding-top: 49px;
+	color: #848484;
+}
+.portfolio_5 {
+	margin-top: -126px;
+}
+.portfolio_8 {
+	margin-top: -144px;
+}
+.portfolio_7 {
+	margin-top: -174px;
+}
+.portfolio_9 {
+	margin-top: -490px;
+}
+/* --------team---------------------- */
+.team{
+	background-color:#f3f5fa;
+}
+.eius h4 {
+	font-size: 32px;
+	color: #37517e;
+	font-weight: 600;
+	padding-top: 67px;
+	text-align: center;
+}
+.eius p {
+	font-size: 17px;
+	color: #848484;
+	padding-top: 50px;
+	text-align: center;
+}
+.walter img{
+	overflow: hidden;
+	width: 180px;
+	border-radius: 50%;
+}
+.walter h4 {
+	font-weight: 700;
+	padding-left: 216px;
+	margin-top: -135px;
+	font-size: 20px;
+	color: #37517e;
+}
+.walter p {
+	font-size: 16px;
+	margin-left: 207px;
+	margin-top: -22px;
+	padding: 10px;
+}
+/* --------PRICING---------------- */
+.PRICING_part h1{
+	font-size: 32px;
+	text-align: center;
+	color: #37517e;
+	padding-top: 45px;
+	font-weight: bold;
+}
+.PRICING_part p {
+	font-size: 17px;
+	text-align: center;
+	padding-top: 35px;
+	color: #848484;
+}
+.free h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #37517e;
+	padding-left: 28px;
+	padding-top: 36px;
+}
+.free h4 {
+	font-size: 33px;
+	color: #37517e;
+	padding-left: 28px;
+	padding-top: 5px;
+}
+sub {
+	font-size: 45px;
+}
+.free h4 span {
+	color: #47b2e4;
+	font-size: 18px;
+	display: block;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.free h5 {
+	font-size: 23px;
+	color: #00e1ff;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.free P i {
+	font-size: 15px;
+	padding-left: 20px;
+	color: green;
+	padding-right: 16px;
+	padding-top: 12px;
+}
+
+.free p {
+	font-size: 18px;
+	padding-left: 7px;
+	color: #848484;
+	margin-top: -28px;
+}
+.free a {
+	font-size: 21px;
+	padding-top: 9px;
+	padding: 7px 30px;
+	padding-left: 20px;
+	border: 1px solid #47b2e4;
+	color: #47b2e4;
+	margin-left: 27px;
+	border-radius: 25px;
+}
+.free a:hover{
+	background-color: #0aa7f0;
+	color: #ffff;
+	transition: 0.5s;
+}
+.massa{
+	background-color: #199fdd;
+	color: #ffff !important;
+}
+/* ----------frequently----------------------- */
+.frequently{
+	background-color: #f3f5fa;
+}
+.ASKED h1 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #37517e;
+	padding-top: 58px;
+	text-align: center;
+}
+.ASKED p {
+	font-size: 17px;
+	color: #848484;
+	padding-top: 56px;
+	text-align: center;
+}
+.muted p {
+	text-align: center;
+	border: 1px solid #ffff;
+	padding: 16px 0px;
+	margin: 13px 1px;
+	background-color: #ffff;
+	border-radius: 15px;
+}
+.muted a {
+	font-size: 22px;
+	color: #37517e !important;
+	padding-right: 230px;
+}
+/* -------CONTACT------------------ */
+.CONTACT_part h1 {
+	font-size: 32px;
+	color: #37517e;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: bold;
+}
+.CONTACT_part p {
+	font-size: 17px;
+	font-weight: 500;
+	text-align: center;
+	color: #848484;
+	padding-top: 50px;
+}
+.Location i {
+	padding-left: 15px;
+	font-size: 33px;
+	color: #00e1ff;
+	padding-top: 18px;
+}
+.Location h3 {
+	margin-top: -36px;
+	font-size: 20px;
+	color: #37517e;
+	padding-left: 53px;
+}
+.Location p {
+	font-size: 15px;
+	color: #37517e;
+	padding-left: 53px;
+	margin-top: -23px;
+}
+.Email i {
+	padding-left: 15px;
+	font-size: 30px;
+	color: #00e1ff;
+	padding-top: 54px;
+}
+.Email h3{
+	margin-top: -33px;
+	font-size: 20px;
+	color: #37517e;
+	padding-left: 53px;
+}
+.Email p {
+	font-size: 15px;
+	color: #37517e;
+	padding-left: 53px;
+	margin-top: -33px;
+}
+.Call i {
+	padding-left: 15px;
+	font-size: 30px;
+	color: #00e1ff;
+	padding-top: 55px;
+}
+.Call h3 {
+	margin-top: -39px;
+	font-size: 20px;
+	color: #37517e;
+	padding-left: 53px;
+}
+.Call p {
+	font-size: 15px;
+	color: #37517e;
+	margin-left: 53px;
+	margin-top: -34px;
+}
+iframe {
+	width: 410px;
+	height: 321px;
+	margin-top: 10px;
+	margin-left: 22px;
+}
+/* --------Join----------------- */
+.Join{
+	background-color: #f3f5fa;
+}
+.Newsletter h1 {
+	color: #37517e;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 64px;
+}
+.Newsletter p {
+	font-size: 21px;
+	color: #848484;
+	text-align: center;
+	padding-top: 14px;
+}
+.email button{
+	border: 2px solid #0aa7f0;
+}
+.email button:hover{
+	background-color: #00e1ff;
+	color:#ffff;
+	border-color: #00e1ff;
+}
+.email input {
+	margin: 0px 197px;
+}
+
+/* ----------footer------------------- */
+.States h3{
+	font-size: 28px;
+	color: #37517e;
+	font-weight: 600;
+}
+.States p {
+	font-size: 14px;
+	color: #5e5e5e;
+	padding: 13px 0px;
+}
+.Useful li {
+	font-size: 14px;
+	color: #5e5e5e;
+	padding: -1px 2px;
+	margin-right: 15px;
+}
+.Useful i {
+	color: #0fa6ec;
+	padding-right: 6px;
+}
+.Useful h4 {
+	font-size: 16px;
+	color: #37517e;
+	font-weight: 600;
+	padding-left: 30px;
+}
+.Services li {
+	font-size: 14px;
+	color: #5e5e5e;
+	padding: -3px 5px;
+}
+.Services i{
+	color: #0fa6ec;
+	padding-right: 10px;
+}
+.Services h4{
+	font-size: 16px;
+	color: #37517e;
+	font-weight: 600;
+}
+.Social i {
+	color: #0fa6ec;
+	padding-right: 10px;
+	font-size: 32px;
+}
+.Social h4{
+	font-size: 16px;
+	color: #37517e;
+	font-weight: 600;
+}
+li{
+	list-style: none;
+}
+/* ----------copyright--------------------- */
+.copyright{
+	background-color: #37517e;
+	color: #ffff;
+}
